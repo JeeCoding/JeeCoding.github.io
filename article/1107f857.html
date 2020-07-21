@@ -30,7 +30,7 @@
 <td>取消watch命令对所有 key 的监视。</td>
 </tr>
 </tbody></table>
-<h2 id="Redis持久化"><a href="#Redis持久化" class="headerlink" title="Redis持久化"></a>Redis持久化</h2><p>Redis持久化包括RDB和ADF两种。</p>
+<h2 id="Redis持久化"><a href="#Redis持久化" class="headerlink" title="Redis持久化"></a>Redis持久化</h2><p>Redis持久化包括RDB和AOF两种。</p>
 <h3 id="RDB"><a href="#RDB" class="headerlink" title="RDB"></a>RDB</h3><ul>
 <li><p><strong>介绍</strong></p>
 <p>  在指定的时间间隔内生成内存中整个数据集的持久化快照。快照文件默认被存储在当前文件夹中，名称为<code>dump.rdb</code>，可以通过dir和dbfilename参数来修改默认值，如果不修改则在启动redis的目录中生成rdb文件。</p>
